@@ -1,6 +1,6 @@
 # TensorFlow
 
-Machine Learning을 학습하며 정리한 자료입니다.
+TensorFlow를 활용한 Machine Learning을 학습하며 정리한 자료입니다.
 
 ## TensorFlow 학습 출처
  - [모두를 위한 머신러닝과 딥러닝 강의](http://hunkim.github.io/ml/) 
