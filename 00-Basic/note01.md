@@ -1,6 +1,6 @@
-#1 TensorFlow의 기본
+# TensorFlow의 기본
 
-#2 00-helloworld.py
+## 00-helloworld.py
 - Tensorflow를 tf로 import한다.
 - constant함수(function)로 hello라는 변수(variable)을 생성
 - 텐서플로우의 세션을 시작한다 sess = tf.Session()
