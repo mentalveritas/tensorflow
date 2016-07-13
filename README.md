@@ -19,7 +19,7 @@ TensorFlow를 활용한 Machine Learning을 학습하며 정리한 자료입니�
 - Python 2.7
 
 ## 목록
-1. 선형회귀
+1. [선형회귀](https://github.com/mentalveritas/tensorflow/tree/master/01-LinearRegression)
 2. 경사 하강법(Gradient Descent)알고리즘
 
 ###업데이트 중
