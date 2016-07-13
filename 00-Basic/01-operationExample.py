@@ -11,7 +11,7 @@ b = tf.constant(3)
 c = a + b
 
 # Print out operation
-print c
+# print c
 
 # Print out the result of operation
 print sess.run(c)
