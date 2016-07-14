@@ -21,6 +21,11 @@ TensorFlow를 활용한 Machine Learning을 학습하며 정리한 자료입니�
 
 ## 목록
 1. [선형회귀(Linear Regression)](https://github.com/mentalveritas/tensorflow/tree/master/01-LinearRegression)
-2. 경사 하강법(Gradient Descent)알고리즘
+2. [경사 하강법(Gradient Descent)알고리즘](https://github.com/mentalveritas/tensorflow/tree/master/02-Cost)
+3. 다중입력 선형회귀
+4. 이진 분류
+5. Softmax
+6. MNIST
+
 
 ###업데이트 중
