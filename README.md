@@ -16,6 +16,7 @@ TensorFlow를 활용한 Machine Learning을 학습하며 정리한 자료입니�
 - Docker Image
   - [gcr.io/tensorflow/tensorflow](https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html#docker-installation)
   - TensorFlow 0.9.0 Cpu only
+- Jupyther Notebook
 - Python 2.7
 
 ## 목록

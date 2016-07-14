@@ -10,11 +10,15 @@ W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 # Bias
 b = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 
-# Hypothesis
-hypothesis = W * x_data + b
+# Placeholder
+X = tf.placeholder(tf.float32)
+Y = tf.placeholder(tf.float32)
 
-# Simplified cost function
-cost = tf.reduce_mean(tf.square(hypothesis - y_data))
+# Hypothesis (Change x_data to X)
+hypothesis = W * X + b
+
+# Simplified cost function(Change y_data to Y)
+cost = tf.reduce_mean(tf.square(hypothesis - Y))
 
 # Minimize
 # Variable 'a' is Learning rate, alpha
@@ -31,6 +35,11 @@ sess.run(init)
 
 # Fit the line
 for step in xrange(2001):
-	sess.run(train)
+	sess.run(train, feed_dict={X:x_data, Y:y_data})
 	if step % 20 == 0:
-		print step, sess.run(cost), sess.run(W), sess.run(b)
+		print step, sess.run(cost, feed_dict={X:x_data, Y:y_data}), sess.run(W), sess.run(b)
+
+# Advantage of Placeholder
+print sess.run(hypothesis, feed_dict={X:5})
+print sess.run(hypothesis, feed_dict={X:2.5})
+
