@@ -29,7 +29,7 @@ TensorFlow를 활용한 Machine Learning/Deep Learning을 학습하며 정리한
 3. [다중입력(Multi-variable)선형회귀](https://github.com/mentalveritas/tensorflow/tree/master/03-MultiVariable)
 4. [로지스틱 판별분석(Logistic Classification)](https://github.com/mentalveritas/tensorflow/tree/master/04-LogisticClassification)
 5. [소프트맥스 판별분석(Softmax Classification)](https://github.com/mentalveritas/tensorflow/tree/master/05-SoftmaxClassification)
-6. 기계학습 MNIST(MNIST for ML)
+6. [기계학습 MNIST(MNIST for ML)](https://github.com/mentalveritas/tensorflow/tree/master/06-MNIST_ML)
 7. 신경망(Neural Network)
 8. 나선형신경망(Convolutional Neural Network)
 9. 순환신경망(Recurrent Neural Network)
